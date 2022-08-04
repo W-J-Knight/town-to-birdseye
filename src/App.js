@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Container, Navbar, NavbarBrand } from 'reactstrap';
-import Birdseye from './app/asset/images/Birdseye-2.svg';
+import BirdseyeLogo from './app/asset/images/Yellow-jack-100.svg';
 
 
 
@@ -10,8 +10,8 @@ function App() {
         <div className='App'>
             <Navbar dark color='primary' sticky='top' expand='md'>
                 <Container>
-                    <NavbarBrand href='/'>
-                        <img src={Birdseye} alt='birdsye logo' />
+                    <NavbarBrand  href='/'>
+                        <img src={BirdseyeLogo} alt='birdseye logo' className='m-0'/>
                     </NavbarBrand>
                 </Container>
             </Navbar>
