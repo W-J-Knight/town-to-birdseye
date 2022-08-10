@@ -1,3 +1,9 @@
+:root {
+    --gray-linear-gradient-3:linear-gradient(to right, #d6d6d6, #95969a, #626367 );
+    --gray-linear-gradient-2:linear-gradient(#484848, #d6d6d6);
+    --main-bg-color: brown;
+  }
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -30,7 +36,7 @@ h2 {
 }
 
 .site-footer {
-    background-image: linear-gradient(#cec8ff, white);
+    background-image: var(--gray-linear-gradient-2);
     padding: 20px 0;
     margin-top: 2rem;
 }
@@ -49,7 +55,7 @@ h2 {
 
 .navbar-dark {
     background-color: #901cad;
-    background-image: linear-gradient(to right, #5637dd, #3046c5, #510e5a);
+    background-image: var(--gray-linear-gradient-3);
     margin-bottom: 2rem;
     min-height: 8rem;
 }
