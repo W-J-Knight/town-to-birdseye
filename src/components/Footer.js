@@ -31,7 +31,7 @@ const Footer = (props) => {
                                 href='http://www.facebook.com/'
                             >
                                 <i className='fa fa-facebook' />
-                            </a>{' '}
+                            </a>
 
                     </Col>
                     <Col sm='4' className='text-center'>
@@ -40,7 +40,7 @@ const Footer = (props) => {
                                 className='btn btn-link'
                                 href='tel:+12065551234'
                             >
-                                <i className='fa fa-phone' /> 1-206-555-1234
+                                <i className='fa fa-phone' /> 1-812-389-2419
                             </a>
                             <br />
                             <a
@@ -48,9 +48,15 @@ const Footer = (props) => {
                                 className='btn btn-link'
                                 href='mailto:notreal@notreal.co'
                             >
-                                <i className='fa fa-envelope-o' /> campsites@nucamp.co
+                                <i className='fa fa-envelope-o' /> tobirdseye@pscinet
                             </a>
-
+                            
+                            <i className="fa-solid fa-mailbox"></i>
+                            <p>Birdseye Municipal Building</p>
+                            <p>103 W. State Road 64</p>
+                            <p>Birdseye, IN 47513</p>
+                            <p>United States</p>
+                            
                     </Col>
                 </Row>
             </Container>

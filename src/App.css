@@ -41,6 +41,10 @@ h2 {
     margin-top: 2rem;
 }
 
+.site-footer a{
+    color:aliceblue
+} 
+
 .navbar-brand {
     max-width: 4rem;
     margin-right: 1rem;
